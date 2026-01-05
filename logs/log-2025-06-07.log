@@ -1,0 +1,172 @@
+CRITICAL - 2025-06-07 08:48:04 --> ErrorException: Undefined array key "materi_faktor_prima_2"
+[Method: GET, Route: siswa]
+in APPPATH\Views\student\home.php on line 309.
+ 1 APPPATH\Views\student\home.php(309): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "materi_faktor_prima_2"', 'D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\home.php', 309)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('student/home', [], true)
+ 5 APPPATH\Controllers\Siswa.php(61): view('student/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-07 08:49:46 --> ErrorException: Undefined array key "latihan_faktorprima"
+[Method: GET, Route: siswa]
+in APPPATH\Views\student\home.php on line 320.
+ 1 APPPATH\Views\student\home.php(320): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "latihan_faktorprima"', 'D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\home.php', 320)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('student/home', [], true)
+ 5 APPPATH\Controllers\Siswa.php(61): view('student/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-07 08:55:38 --> ErrorException: Undefined array key "latihan_faktorprima_2"
+[Method: GET, Route: siswa]
+in APPPATH\Views\student\home.php on line 334.
+ 1 APPPATH\Views\student\home.php(334): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "latihan_faktorprima_2"', 'D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\home.php', 334)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('student/home', [], true)
+ 5 APPPATH\Controllers\Siswa.php(61): view('student/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-07 08:58:06 --> ErrorException: Undefined variable $materi_progress
+[Method: GET, Route: siswa/materi-faktor-prima]
+in APPPATH\Views\student\faktor_prima\materi_faktor_prima.php on line 115.
+ 1 APPPATH\Views\student\faktor_prima\materi_faktor_prima.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $materi_progress', 'D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\faktor_prima\\materi_faktor_prima.php', 115)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\faktor_prima\\materi_faktor_prima.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('student/faktor_prima/materi_faktor_prima', [], true)
+ 5 APPPATH\Controllers\Siswa.php(718): view('student/faktor_prima/materi_faktor_prima', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->materiFaktorPrima()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-07 09:07:42 --> ErrorException: Undefined variable $materi1
+[Method: GET, Route: siswa]
+in APPPATH\Views\student\home.php on line 304.
+ 1 APPPATH\Views\student\home.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $materi1', 'D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\home.php', 304)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('student/home', [], true)
+ 5 APPPATH\Controllers\Siswa.php(61): view('student/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-07 09:10:36 --> ErrorException: Undefined array key "latihan_faktorprima_2"
+[Method: GET, Route: siswa]
+in APPPATH\Views\student\home.php on line 334.
+ 1 APPPATH\Views\student\home.php(334): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "latihan_faktorprima_2"', 'D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\home.php', 334)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('student/home', [], true)
+ 5 APPPATH\Controllers\Siswa.php(61): view('student/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-07 09:21:08 --> ErrorException: Undefined variable $materi_progress
+[Method: GET, Route: siswa/materi-faktor-prima-2]
+in APPPATH\Views\student\faktor_prima\materi_faktor_prima2.php on line 96.
+ 1 APPPATH\Views\student\faktor_prima\materi_faktor_prima2.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $materi_progress', 'D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\faktor_prima\\materi_faktor_prima2.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\faktor_prima\\materi_faktor_prima2.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('student/faktor_prima/materi_faktor_prima2', [], true)
+ 5 APPPATH\Controllers\Siswa.php(747): view('student/faktor_prima/materi_faktor_prima2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->materiFaktorPrima2()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-07 09:22:08 --> ErrorException: Undefined variable $materi_progress
+[Method: GET, Route: siswa/materi-faktor-prima-2]
+in APPPATH\Views\student\faktor_prima\materi_faktor_prima2.php on line 96.
+ 1 APPPATH\Views\student\faktor_prima\materi_faktor_prima2.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $materi_progress', 'D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\faktor_prima\\materi_faktor_prima2.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP-Update\\htdocs\\Belajar-KPK-dan-FPB-kelas-5\\app\\Views\\student\\faktor_prima\\materi_faktor_prima2.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('student/faktor_prima/materi_faktor_prima2', [], true)
+ 5 APPPATH\Controllers\Siswa.php(747): view('student/faktor_prima/materi_faktor_prima2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->materiFaktorPrima2()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-07 10:21:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "student/faktorprima/latihan.php"
+[Method: GET, Route: siswa/latihan-faktor-prima]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student/faktorprima/latihan.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('student/faktorprima/latihan', [], true)
+ 3 APPPATH\Controllers\Siswa.php(771): view('student/faktorprima/latihan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->latihanFaktorPrima()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-07 10:33:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "student/faktorprima/latihan.php"
+[Method: GET, Route: siswa/latihan-faktor-prima]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student/faktorprima/latihan.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('student/faktorprima/latihan', [], true)
+ 3 APPPATH\Controllers\Siswa.php(769): view('student/faktorprima/latihan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->latihanFaktorPrima()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-07 10:49:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "siswa/faktor_prima/latihan_faktor_prima.php"
+[Method: GET, Route: siswa/latihan-faktor-prima]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa/faktor_prima/latihan_faktor_prima.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('siswa/faktor_prima/latihan_faktor_prima', [], true)
+ 3 APPPATH\Controllers\Siswa.php(803): view('siswa/faktor_prima/latihan_faktor_prima', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->latihanFaktorPrima()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-07 10:50:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "siswa/faktor_prima/latihan_faktor_prima.php"
+[Method: GET, Route: siswa/latihan-faktor-prima]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa/faktor_prima/latihan_faktor_prima.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('siswa/faktor_prima/latihan_faktor_prima', [], true)
+ 3 APPPATH\Controllers\Siswa.php(803): view('siswa/faktor_prima/latihan_faktor_prima', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->latihanFaktorPrima()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-07 10:57:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "student/faktor_prima/latihan.php"
+[Method: GET, Route: siswa/latihan-faktor-prima]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student/faktor_prima/latihan.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('student/faktor_prima/latihan', [], true)
+ 3 APPPATH\Controllers\Siswa.php(771): view('student/faktor_prima/latihan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->latihanFaktorPrima()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
